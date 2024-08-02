@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #101010;
+    color: #dfdfe2;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-style:italic;
+    font-size: 2rem;
+    padding-right: 3rem;
+}
+
+.left_nav{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+
+.searchBarForm {
+    display: flex;
+    border-radius: 50px;
+    background-color: #131313;
+    align-items: center;
+}
+
+#searchBarInput {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    width: 15vw;
+    color: #dfdfe2;
+    outline: 0;
+    border: none;
+    background: none;
+}
+
+#searchIcon {
+    padding: 0 1rem;
+    height: 2vw;
+    margin-top: 0.25vw;
+    margin-left: 0.2vw;
+
+}
+
+.right_nav{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2rem;
+    
+}
+
+.right_nav a{
+    text-decoration: none;
+    
+}
+
+.topUpButton{
+    font-size: 0.9vw;
+    width: 5vw;
+    height: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26a858;
+    border-radius: 50px;
+    color: #101010;
+
+}
+
+.userNameButton {
+    font-size: 0.9vw;
+    background-color: none;
+    margin-left: 10rem;
+    color: #dfdfe2;
+}
+
+
+.leftMenu{
+    height: 100%;
+    position:fixed;
+    background-color: #1C1C1C;
+    width: 10%;
+}
+
+.leftMenu li{
+    height: 3rem;
+}
+
+.leftMenu a{
+    text-decoration: none; 
+    color: inherit;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin: 0 0.8rem;
+    border-radius: 5px;
+}
+
+.leftMenu li a:hover{
+    background-color: #2a2a2a;
+}
+
+.leftMenu li a img{
+    height: 1.2rem;
+    margin-right: 0.7rem;
+}
+
+.logOut{
+    color: wheat;
+}
+
+.logOut:hover{
+    color:red
+}
+
+
+.rightMenu{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+}
+
+.XX{
+    display: flex;
+    flex-wrap: wrap;
+    width: 61vw;
+    
+}
+.spentGB, .leftProxy, .spentMoney, .balance{
+    height: 10vw;
+    width: 20vw;
+    background-color: #1C1C1C; 
+    border-radius: 0.5vw;
+    margin-top: 1.5vw;
+    margin-left: 0.5vw;
+    
+}
+
+.balance{
+    background-color: #26a858; 
+    background-image: radial-gradient(circle, #46c376 45%, transparent 20%);
+    background-size: 5vw 4vw;
+    color: #101010;
+}
