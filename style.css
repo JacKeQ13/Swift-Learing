@@ -91,12 +91,15 @@ header {
     color: #dfdfe2;
 }
 
+.mainPage{
+    display: flex;
+}
 
 .leftMenu{
-    height: 100%;
-    position:fixed;
+    flex-direction: column;
     background-color: #1C1C1C;
-    width: 10%;
+    height: 1000px;
+    width: 10rem;
 }
 
 .leftMenu li{
@@ -125,10 +128,18 @@ header {
 
 .logOut{
     color: wheat;
+    height: 3rem;
+}
+
+.logOut img{
+    height: 1.2rem;
+    margin-right: 0.7rem;
 }
 
 .logOut:hover{
-    color:red
+    color:red;    
+    height: 2.5rem;      
+    background-color: #2a2a2a;
 }
 
 
